@@ -528,133 +528,169 @@ body.p2jb-done .stats-fill {
   background: -webkit-linear-gradient(90deg, #15803d 0%, #47c76a 100%);
 }
 
-/* Goldengames v1.1.0 dashboard skin. Functional v0.4.0 IDs and layout remain. */
-body {
-  background: radial-gradient(circle at 75% 8%, #102b5d 0%, #050b18 38%, #01030a 100%);
-}
-body:before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  opacity: .16;
-  background: linear-gradient(rgba(35,117,230,.22) 1px, transparent 1px), linear-gradient(90deg,rgba(35,117,230,.22) 1px,transparent 1px);
-  background-size: 52px 52px;
-}
-#splash h1 { color:#f6c64d; font-weight:800; letter-spacing:.12em; }
-#splash p { margin-top:.55rem; color:#7bcaff; letter-spacing:.26em; font-size:.9rem; }
-#splash p strong { color:#fff; }
-#loader { width:86vw; max-width:1400px; margin:auto; padding:4vh 4vw 5.5rem; }
-#goldenHeader {
-  display:-webkit-box; display:-webkit-flex; display:flex; -webkit-box-align:center; -webkit-align-items:center; align-items:center;
-  padding:1.1rem 1.35rem; margin-bottom:1.25rem; border:1px solid #244e7e; border-radius:20px;
-  background:linear-gradient(135deg,rgba(9,27,57,.97),rgba(3,10,24,.97)); box-shadow:0 0 35px rgba(19,122,255,.13);
-}
-#goldenHeader img { width:72px; height:72px; margin-right:1rem; }
-#goldenHeader div { display:-webkit-box; display:-webkit-flex; display:flex; -webkit-box-orient:vertical; -webkit-flex-direction:column; flex-direction:column; }
-#goldenHeader strong { color:#f7c84b; font-size:1.65rem; letter-spacing:.12em; }
-#goldenHeader span { color:#68c2ff; margin-top:.25rem; font-size:.78rem; letter-spacing:.24em; }
-#systemBadge { margin-left:auto; padding:.65rem 1rem; border:1px solid rgba(87,196,255,.42); border-radius:999px; color:#9cddff; background:rgba(31,137,220,.1); font-size:.72rem; letter-spacing:.12em; }
-#statusCard { display:-webkit-box; display:-webkit-flex; display:flex; -webkit-box-pack:justify; -webkit-justify-content:space-between; justify-content:space-between; margin-bottom:1rem; padding:.85rem 1.2rem; border-left:4px solid #f2bd3f; background:rgba(10,26,51,.82); }
-#statusCard span { color:#738eac; font-size:.72rem; letter-spacing:.18em; }
-#goldenState { color:#f3c44b; font-size:.82rem; letter-spacing:.12em; }
-#logWrapper, #p2jbStats { border-color:#244b76; border-radius:18px; background:rgba(2,8,19,.9); box-shadow:inset 0 0 30px rgba(0,0,0,.35); }
-#progressContainer { border-color:#315f91; background:#071126; border-radius:999px; }
-#progressBar, .stats-fill { background:#1a92ff; background:-webkit-linear-gradient(90deg,#087cf0 0%,#55c9ff 62%,#f4be3f 100%); }
-#footer { color:#607894; }
-@media (max-width: 760px) {
-  #systemBadge { display:none; }
-  #loader { width:94vw; padding-left:2.5vw; padding-right:2.5vw; }
-  #goldenHeader strong { font-size:1.15rem; }
-  #goldenHeader span { font-size:.62rem; letter-spacing:.14em; }
-}
+/* =========================================================
+   MUSTAFA / AKELA — DARK GLASS PS4/PS5 THEME
+   Visual styling only. Functional selectors and JS-facing
+   IDs/classes are preserved.
+   ========================================================= */
 
-/* Goldengames v1.2.0-rc6 — PS2 Memory Card dashboard. */
-.ps2World{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 50% 110%,rgba(19,77,191,.58),transparent 54%)}
-.memoryBlock{position:absolute;width:120px;height:230px;border:1px solid rgba(61,139,255,.34);background:linear-gradient(90deg,rgba(4,22,72,.88),rgba(12,52,135,.5));box-shadow:0 0 35px rgba(20,100,255,.17);transform:perspective(500px) rotateY(-18deg);animation:memoryRise 12s linear infinite}
-.memoryBlock:before{content:"";position:absolute;inset:12px;border:1px solid rgba(83,153,255,.22);background:repeating-linear-gradient(0deg,transparent 0 18px,rgba(84,148,255,.12) 19px 20px)}
-.memoryBlock.b1{left:7%;bottom:-260px}.memoryBlock.b2{left:28%;bottom:-300px;animation-delay:-7s}.memoryBlock.b3{right:25%;bottom:-250px;animation-delay:-3s}.memoryBlock.b4{right:6%;bottom:-320px;animation-delay:-9s}
-@keyframes memoryRise{0%{transform:translateY(0) perspective(500px) rotateY(-18deg);opacity:0}15%{opacity:.75}85%{opacity:.45}100%{transform:translateY(-130vh) perspective(500px) rotateY(-18deg);opacity:0}}
-.psSymbol{position:absolute;font-family:Arial,sans-serif;font-size:5rem;opacity:.22;filter:drop-shadow(0 0 14px currentColor);animation:symbolFloat 8s ease-in-out infinite}.triangle{left:9%;top:16%;color:#39d1b5}.circle{right:10%;top:15%;color:#ff557e;animation-delay:-2s}.cross{left:12%;bottom:12%;color:#64a7ff;animation-delay:-4s}.square{right:12%;bottom:14%;color:#d77bff;animation-delay:-6s}
-@keyframes symbolFloat{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-24px) rotate(8deg)}}
-#dashboard{position:relative;z-index:2;width:78vw;max-width:1180px;margin:auto;padding:5vh 0 5.5rem}
-.ps2Header{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;padding:1.2rem 1.45rem;border-bottom:1px solid rgba(88,149,255,.45);background:linear-gradient(90deg,rgba(3,12,37,.95),rgba(9,35,91,.86),rgba(3,12,37,.95))}
-.ps2Header img{width:78px;height:78px;margin-right:1rem}.ps2Header h1{margin:0;color:#f4c951;font-size:1.85rem;letter-spacing:.14em}.ps2Header p{margin:.25rem 0 0;color:#71b7ff;font-size:.75rem;letter-spacing:.25em}.onlineDot{margin-left:auto;color:#75dca0;font-size:.7rem;letter-spacing:.14em}.onlineDot:before{content:"";display:inline-block;width:8px;height:8px;margin-right:8px;border-radius:50%;background:#39d57c;box-shadow:0 0 12px #39d57c}
-.memoryPanel{margin-top:1rem;padding:2.2rem 2.4rem;border:1px solid #274f9d;border-radius:4px;background:linear-gradient(145deg,rgba(5,17,53,.97),rgba(4,10,30,.98));box-shadow:inset 0 0 55px rgba(20,68,160,.17),0 24px 80px rgba(0,0,0,.42)}
-.memoryTitle{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;margin-bottom:2rem;color:#6fa8ff;font-size:.75rem;letter-spacing:.2em}.memoryTitle b{color:#8b9bb8}
-.memoryPanel label{display:block;margin-bottom:.55rem;color:#9dbbe6;font-size:.72rem;letter-spacing:.19em}.selectShell{position:relative;border:1px solid #3169c4;background:#02091d}.selectShell:after{content:"▼";position:absolute;right:1.15rem;top:50%;transform:translateY(-50%);color:#74b3ff;pointer-events:none}.selectShell select{width:100%;padding:1.15rem 3.2rem 1.15rem 1.2rem;border:0;outline:0;background:transparent;color:#fff;font:700 1.08rem Arial,sans-serif;-webkit-appearance:none;appearance:none}.selectShell option{background:#07152f;color:#fff}
-.actionRow{display:-webkit-box;display:-webkit-flex;display:flex;gap:1rem;margin-top:1.25rem}.ps2Button{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-flex:1;flex:1;padding:1rem 1.15rem;border:1px solid #2c72d7;background:linear-gradient(135deg,#0d4aa6,#09245b);color:#fff;text-align:left}.ps2Button i{margin-right:1rem;color:#79b7ff;font:normal 2rem Arial}.ps2Button span{font-weight:800;letter-spacing:.09em}.ps2Button small{display:block;margin-top:.3rem;color:#9db5d7;font-weight:400;letter-spacing:.04em}.ps2Button.gold{border-color:#c79629;background:linear-gradient(135deg,#664810,#1c2852)}.ps2Button.gold i{color:#f2c34a}.ps2Button:active{transform:scale(.985)}.sessionHint{margin:1.45rem 0 0;color:#7185a7;font-size:.78rem;text-align:center}
-.retroLoader{margin:0 0 1rem;padding:1rem;border:1px solid rgba(55,119,221,.4);background:rgba(3,12,32,.72);text-align:center}.retroLoader span{display:block;margin-top:.7rem;color:#6baeff;font-size:.68rem;letter-spacing:.2em}.retroBlocks{height:28px;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;gap:9px}.retroBlocks i{width:18px;height:28px;background:linear-gradient(#4b8cff,#12346f);box-shadow:0 0 12px rgba(54,126,255,.5);-webkit-animation:blockPulse 1s ease-in-out infinite;animation:blockPulse 1s ease-in-out infinite}.retroBlocks i:nth-child(2){-webkit-animation-delay:.12s;animation-delay:.12s}.retroBlocks i:nth-child(3){-webkit-animation-delay:.24s;animation-delay:.24s}.retroBlocks i:nth-child(4){-webkit-animation-delay:.36s;animation-delay:.36s}.retroBlocks i:nth-child(5){-webkit-animation-delay:.48s;animation-delay:.48s}@-webkit-keyframes blockPulse{0%,100%{-webkit-transform:scaleY(.4);transform:scaleY(.4);opacity:.38}50%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}}@keyframes blockPulse{0%,100%{-webkit-transform:scaleY(.4);transform:scaleY(.4);opacity:.38}50%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}}
-#logWrapper{display:none}.details-open #logWrapper{display:block}.loaderActions{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;gap:1rem;margin-top:.9rem}.loaderActions button{padding:.65rem 1rem;border:1px solid #274f86;background:#07152d;color:#7fa9dd;font-size:.7rem;letter-spacing:.1em}
-@media(max-width:800px){#dashboard{width:94vw}.memoryPanel{padding:1.4rem}.actionRow{display:block}.ps2Button{width:100%;margin-top:.8rem}.memoryTitle b{display:none}}
-
-.stats-meta {
-  margin-top: 0.4rem;
-  font-size: 1rem;
-  color: #7b8fa3;
-}
-
-.stats-meta.stalled {
-  color: #fbbf24;
-}
-
-/* PS1 CLASSIC DASHBOARD — approved gray shell with four-color controls. */
-body{background:linear-gradient(145deg,#d8d7d1 0%,#aaa9a4 52%,#777672 100%);color:#202020}
-.ps2World{background:radial-gradient(ellipse at 50% 105%,rgba(255,255,255,.62),transparent 58%)}
-.memoryBlock{border-color:rgba(74,74,72,.34);background:linear-gradient(90deg,rgba(160,159,154,.78),rgba(221,220,214,.72));box-shadow:0 0 28px rgba(0,0,0,.13)}
-.memoryBlock:before{border-color:rgba(70,70,68,.2);background:repeating-linear-gradient(0deg,transparent 0 18px,rgba(60,60,58,.1) 19px 20px)}
-#dashboard{color:#202020}
-.ps2Header{border:2px solid #686763;border-bottom-width:7px;border-radius:18px 18px 4px 4px;background:linear-gradient(145deg,#ecebe5,#aaa9a4);box-shadow:0 14px 32px rgba(0,0,0,.22)}
-.ps2Header h1{color:#df2d32}.ps2Header p{color:#3475bd}.onlineDot{color:#236e3e}.onlineDot:before{background:#269c55;box-shadow:0 0 9px #269c55}
-.memoryPanel{border:2px solid #6c6b67;border-radius:4px 4px 22px 22px;background:linear-gradient(145deg,rgba(238,237,231,.98),rgba(184,183,178,.98));box-shadow:inset 0 0 40px rgba(255,255,255,.35),0 24px 55px rgba(0,0,0,.26)}
-.memoryTitle{color:#333}.memoryTitle b{color:#5c5b58}.categoryTitle{color:#333;border-color:#8f8e89}.categoryTitle small{color:#555}
-.heroLaunch{border-color:#ba2026;background:linear-gradient(135deg,#df2d32,#9d171c);box-shadow:0 10px 24px rgba(145,20,25,.22)}.heroLaunch i,.heroLaunch b{color:#f4c330}.heroLaunch small{color:#fff4ca}
-.payloadCard{border:2px solid #777672!important;background:linear-gradient(145deg,#eeede7,#c3c2bd)!important;color:#202020!important;box-shadow:0 5px 12px rgba(0,0,0,.12)}
-.payloadCard i{color:#fff!important;background:#df2d32!important;border-color:#9e181d!important}.payloadCard:nth-child(4n+2) i{background:#dcae18!important;border-color:#9c7600!important;color:#202020!important}.payloadCard:nth-child(4n+3) i{background:#269c55!important;border-color:#176331!important}.payloadCard:nth-child(4n+4) i{background:#3475bd!important;border-color:#1f4f86!important}
-.payloadCard strong{color:#202020!important}.payloadCard small{color:#555!important}.payloadCard:focus,.payloadCard:hover{border-color:#3475bd!important;box-shadow:0 0 0 4px rgba(52,117,189,.24),0 7px 18px rgba(0,0,0,.18)}
-.advancedPanel{border-color:#777672!important;background:rgba(195,194,189,.72)!important}.advancedPanel summary{color:#8b1d22!important}.advancedPanel p,.sessionHint{color:#4b4a47!important}
-#loader{background:linear-gradient(145deg,#d8d7d1,#8f8e89)}
-#goldenHeader,#statusCard{border-color:#686763;background:linear-gradient(145deg,#ecebe5,#aaa9a4);color:#202020}.retroLoader{border:2px solid #686763;background:linear-gradient(#e5e4de,#b4b3ae)}.retroLoader span{color:#333;font-weight:700}.retroBlocks{-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end}.retroBlocks i{-webkit-animation:none!important;animation:none!important;transition:height .1s linear,opacity .1s linear}
-#progressContainer{border-color:#666;background:#8a8985}.loaderActions button{border-color:#666;background:#c8c7c2;color:#292929}
-
-/* Goldengames v1.2.0-rc7 — PS1-inspired luminous startup background.
-   Dashboard geometry and all functional controls remain unchanged from RC6. */
+html,body{width:100%;height:100%}
 body{
+  font-family:-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif;
   background:
-    radial-gradient(circle at 50% 2%,rgba(255,255,255,.98) 0%,rgba(238,239,244,.86) 24%,transparent 52%),
-    linear-gradient(145deg,#d9d9dd 0%,#b9bac1 52%,#8d8e95 100%);
+    radial-gradient(circle at 50% 8%,rgba(42,105,180,.25),transparent 45%),
+    linear-gradient(180deg,#080d16 0%,#050a12 55%,#02050a 100%);
+  color:#e9f2fc;
+  overflow:hidden;
 }
-.ps2World{
-  background:
-    radial-gradient(ellipse at 50% 46%,rgba(255,255,255,.76),transparent 46%),
-    linear-gradient(180deg,rgba(242,243,248,.44),rgba(158,159,168,.18));
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.13;
+  background:linear-gradient(rgba(92,151,211,.12) 1px,transparent 1px),
+             linear-gradient(90deg,rgba(92,151,211,.12) 1px,transparent 1px);
+  background-size:48px 48px;
 }
-.memoryBlock{display:none}
-.retroDisc{position:absolute;width:34vw;height:34vw;min-width:360px;min-height:360px;border:2px solid rgba(83,84,92,.16);border-radius:50%;background:radial-gradient(circle,transparent 0 9%,rgba(255,255,255,.2) 9.5% 10.5%,rgba(201,202,208,.42) 11% 62%,rgba(246,246,248,.25) 63% 66%,rgba(135,136,144,.2) 67%);box-shadow:inset 0 0 50px rgba(255,255,255,.42),0 18px 45px rgba(48,49,56,.12);opacity:.62}
-.discLeft{left:-10vw;top:17vh;transform:rotate(-12deg)}.discRight{right:-15vw;bottom:-19vw;opacity:.32;transform:scale(.72)}
-.lightTrail{position:absolute;left:-8vw;top:78%;width:116vw;height:5px;border-radius:999px;transform-origin:left center;opacity:.68;filter:blur(.4px);animation:trailGlow 3.4s ease-in-out infinite}
-.trailRed{background:linear-gradient(90deg,transparent,#ef4f62 18%,#ef4f62 68%,transparent);transform:rotate(-11deg);box-shadow:0 0 17px #ef4f62}
-.trailYellow{background:linear-gradient(90deg,transparent,#efc94d 18%,#efc94d 68%,transparent);transform:rotate(-7deg);box-shadow:0 0 17px #efc94d;animation-delay:-.7s}
-.trailGreen{background:linear-gradient(90deg,transparent,#37b77b 18%,#37b77b 68%,transparent);transform:rotate(-3deg);box-shadow:0 0 17px #37b77b;animation-delay:-1.4s}
-.trailBlue{background:linear-gradient(90deg,transparent,#4389df 18%,#4389df 68%,transparent);transform:rotate(1deg);box-shadow:0 0 17px #4389df;animation-delay:-2.1s}
-@keyframes trailGlow{0%,100%{opacity:.38;filter:blur(.7px)}50%{opacity:.82;filter:blur(0)}}
-.psSymbol{opacity:.46;font-weight:700;text-shadow:0 0 22px currentColor;animation-duration:6.5s}.triangle{color:#2da872}.circle{color:#dc4352}.cross{color:#397cc7}.square{color:#d35093}
-.ps2Header{background:linear-gradient(145deg,rgba(247,247,249,.94),rgba(185,186,192,.93));box-shadow:0 14px 32px rgba(40,41,48,.2),0 0 30px rgba(255,255,255,.42)}
-.memoryPanel{background:linear-gradient(145deg,rgba(242,242,244,.94),rgba(190,191,197,.94));backdrop-filter:blur(8px)}
-#loader{background:linear-gradient(145deg,rgba(228,229,233,.96),rgba(152,153,161,.96))}
-#progressBar,.stats-fill{background:linear-gradient(90deg,#df4558 0%,#e6bd3d 32%,#2ea46e 64%,#397fce 100%)}
-@media(max-width:800px){.retroDisc{opacity:.28}.lightTrail{opacity:.4}.psSymbol{opacity:.3}}
 
-/* RC8: place the approved retro artwork inside the visible dashboard panel.
-   RC7 kept it behind this panel, so the PS5 browser could not show it. */
-.memoryPanel{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(246,246,248,.88),rgba(187,188,195,.9))}
-.memoryPanel:before{content:"";position:absolute;z-index:0;left:-12%;right:-12%;top:23%;height:48%;pointer-events:none;opacity:.72;background:linear-gradient(166deg,transparent 0 27%,rgba(226,55,76,.9) 27.4% 28%,transparent 28.4% 34%,rgba(228,177,43,.88) 34.4% 35%,transparent 35.4% 41%,rgba(39,164,103,.86) 41.4% 42%,transparent 42.4% 48%,rgba(50,119,204,.9) 48.4% 49%,transparent 49.4%);filter:drop-shadow(0 0 7px rgba(255,255,255,.85));animation:panelLightMove 4.8s ease-in-out infinite}
-.memoryPanel:after{content:"△   ○   ×   □";position:absolute;z-index:0;right:2%;bottom:1%;pointer-events:none;color:#397fce;font:700 7rem/1 Arial,sans-serif;letter-spacing:.08em;opacity:.17;text-shadow:-330px -170px 0 #2ca26c,-210px -70px 0 #db4353,-95px -145px 0 #d34d92;transform:rotate(-7deg)}
+/* Dashboard */
+#dashboard{
+  position:relative;z-index:10;width:78vw;max-width:1180px;height:auto;
+  max-height:calc(100vh - 90px);margin:auto;padding:0 0 4.8rem;overflow-y:auto;
+}
+.ps2Header{
+  position:relative;display:flex;align-items:center;padding:1.05rem 1.35rem;
+  border:1px solid rgba(174,190,211,.18);border-radius:18px 18px 0 0;
+  background:linear-gradient(145deg,rgba(39,42,54,.88),rgba(21,24,34,.94));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 18px 45px rgba(0,0,0,.42);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+}
+.ps2Header img{width:68px;height:68px;margin-right:1rem}
+.ps2Header h1{margin:0;color:#f1f4fa;font-size:1.85rem;font-weight:700;letter-spacing:.08em}
+.ps2Header p{margin:.28rem 0 0;color:#64aaff;font-size:.76rem;letter-spacing:.22em}
+.onlineDot{margin-left:auto;color:#7fa0bd;font-size:.68rem;letter-spacing:.13em}
+.onlineDot:before{background:#4fa8e8;box-shadow:0 0 10px rgba(79,168,232,.6)}
+
+.memoryPanel{
+  position:relative;width:100%;margin:0;padding:1.75rem 2rem 1.55rem;
+  border:1px solid rgba(174,190,211,.16);border-top:0;border-radius:0 0 18px 18px;
+  background:linear-gradient(145deg,rgba(34,37,48,.78),rgba(18,21,30,.91));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.025),0 25px 60px rgba(0,0,0,.44);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+}
+.memoryPanel:before,.memoryPanel:after,.ps2Header:after{display:none}
 .memoryPanel>*{position:relative;z-index:2}
-.ps2Header{position:relative;overflow:hidden;border-bottom-color:#397fce;background:linear-gradient(110deg,rgba(250,250,252,.97) 0 58%,rgba(222,63,81,.2) 58.4% 59.2%,rgba(229,182,48,.2) 59.6% 60.4%,rgba(42,163,105,.2) 60.8% 61.6%,rgba(55,126,207,.24) 62% 62.8%,rgba(185,186,193,.96) 63.2%)}
-.ps2Header:after{content:"△  ○  ×  □";position:absolute;right:1.4rem;bottom:-.25rem;color:#397fce;font:700 2.7rem Arial,sans-serif;letter-spacing:.12em;opacity:.2;pointer-events:none}
-.ps2Header>*{position:relative;z-index:1}
-.heroLaunch{background:linear-gradient(100deg,#dc3448 0%,#d84455 36%,#dbad2b 60%,#2c9b65 80%,#397ac5 100%);border-color:#8d4149}
-.payloadCard{background:linear-gradient(145deg,rgba(250,250,251,.95),rgba(198,199,204,.93))!important}
-@keyframes panelLightMove{0%,100%{transform:translateX(-2%);opacity:.5}50%{transform:translateX(2%);opacity:.88}}
-@media(max-width:800px){.memoryPanel:after{font-size:4.4rem;opacity:.13}.memoryPanel:before{opacity:.58}.ps2Header:after{display:none}}
+.memoryTitle{display:flex;justify-content:space-between;margin-bottom:1.15rem;color:#a1a8b8;font-size:.72rem;letter-spacing:.18em}
+.memoryTitle b{color:#737c8e;font-weight:500}
+
+.heroLaunch{
+  width:100%;min-height:76px;margin:.85rem 0 1.2rem;padding:.9rem 1.15rem;
+  display:flex;align-items:center;color:#f2f6fb;text-align:left;
+  border:1px solid rgba(79,156,255,.42);border-radius:12px;
+  background:linear-gradient(135deg,rgba(37,78,126,.92),rgba(22,43,70,.94),rgba(13,28,48,.96));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 9px 28px rgba(0,0,0,.28);
+  cursor:pointer;transition:.15s ease;
+}
+.heroLaunch:hover,.heroLaunch:focus{
+  border-color:#65adff;box-shadow:0 0 0 3px rgba(79,156,255,.1),0 12px 30px rgba(0,0,0,.34)
+}
+.heroLaunch>i{margin-right:1rem;color:#69adff;font-size:2rem;font-style:normal}
+.heroLaunch span{flex:1}.heroLaunch strong,.heroLaunch small{display:block}
+.heroLaunch strong{color:#f4f7fb;font-size:1.08rem;letter-spacing:.08em}
+.heroLaunch small{margin-top:.2rem;color:#9baec4}.heroLaunch>b{color:#6db4ff;letter-spacing:.1em}
+
+.categoryTitle{display:flex;justify-content:space-between;margin:.65rem 0 .75rem;color:#a4afc0;letter-spacing:.08em;font-size:.76rem}
+.categoryTitle small{color:#727d8f;letter-spacing:0}
+.payloadGrid,.advancedGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:.65rem}
+
+.payloadCard{
+  min-height:76px;padding:.78rem;display:flex;align-items:center;color:#e9f1fa;text-align:left;
+  border:1px solid rgba(126,139,161,.2);border-radius:10px;
+  background:linear-gradient(145deg,rgba(51,54,65,.72),rgba(29,32,42,.86));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 7px 18px rgba(0,0,0,.22);
+  cursor:pointer;transition:.15s ease;
+}
+.payloadCard:hover,.payloadCard:focus{
+  border-color:rgba(79,156,255,.55);box-shadow:0 0 0 2px rgba(79,156,255,.08),0 9px 22px rgba(0,0,0,.3);
+  transform:translateY(-1px)
+}
+.payloadCard>i{
+  width:2.75rem;height:2.75rem;margin-right:.7rem;display:flex;align-items:center;justify-content:center;
+  flex:0 0 2.75rem;color:#82b9ef;font-size:.72rem;font-style:normal;font-weight:800;
+  border:1px solid rgba(87,143,199,.4);border-radius:8px;background:rgba(18,39,63,.75)
+}
+.payloadCard strong,.payloadCard small{display:block}
+.payloadCard strong{color:#edf3f9;font-size:.78rem;letter-spacing:.045em}
+.payloadCard small{margin-top:.25rem;color:#818c9d;font-size:.72rem}
+.payloadCard.caution{border-color:rgba(183,151,72,.38)}
+.payloadCard.danger{border-color:rgba(174,79,96,.45);background:linear-gradient(145deg,rgba(60,31,39,.7),rgba(31,22,28,.86))}
+.payloadCard.danger>i{color:#e9a0ab;border-color:rgba(174,79,96,.5);background:rgba(62,24,34,.65)}
+
+.advancedPanel{margin-top:.75rem;padding:.72rem;border:1px solid rgba(174,79,96,.34);border-radius:10px;background:rgba(36,23,29,.45)}
+.advancedPanel summary{color:#c38b96;cursor:pointer;letter-spacing:.07em;font-size:.76rem}
+.advancedPanel>p{margin:.55rem 0;color:#9c858b;font-size:.75rem}
+.advancedGrid{grid-template-columns:repeat(2,1fr)}
+.sessionHint{margin:1rem 0 0;color:#707d90;font-size:.72rem;line-height:1.45;text-align:center}
+
+/* Risk dialog */
+.riskDialog{position:fixed;z-index:80;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(3,6,11,.78);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+.riskCard{width:min(580px,88vw);padding:1.7rem;text-align:center;border:1px solid rgba(181,86,103,.6);border-radius:14px;background:linear-gradient(145deg,#282126,#171319);box-shadow:0 0 45px rgba(0,0,0,.55)}
+.riskSymbol{color:#c9a95b;font-size:2.2rem}
+.riskCard h2{margin:.5rem 0;color:#dda5af;letter-spacing:.08em}
+.riskCard p{color:#c8bec2;line-height:1.55}
+.riskCard div{display:flex;gap:.65rem;margin-top:1.15rem}
+.riskCard button{flex:1;padding:.75rem;color:#edf3f8;border:1px solid #465365;border-radius:8px;background:#202735}
+#riskContinue{border-color:#914858;background:#542432}
+
+/* Splash */
+#splash{background:radial-gradient(circle at 50% 38%,rgba(42,105,180,.2),transparent 42%),linear-gradient(180deg,#080d16,#03070d)}
+#splash .logo{width:10rem;height:10rem;filter:drop-shadow(0 0 25px rgba(79,156,255,.2))}
+#splash h1{margin-top:1.35rem;color:#eef3f9;font-size:2.35rem;font-weight:700;letter-spacing:.09em}
+#splash p{margin-top:.5rem;color:#65aaff;letter-spacing:.2em;font-size:.8rem}
+#splash p strong{color:#dce8f5}
+
+/* Loader */
+#loader{position:relative;z-index:10;width:78vw;max-width:1180px;height:100%;margin:auto;padding:5vh 0 5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;background:transparent}
+#goldenHeader{width:100%;display:flex;align-items:center;padding:1rem 1.25rem;margin-bottom:.85rem;border:1px solid rgba(174,190,211,.18);border-radius:16px;background:linear-gradient(145deg,rgba(39,42,54,.88),rgba(21,24,34,.94));box-shadow:0 14px 34px rgba(0,0,0,.36)}
+#goldenHeader img{width:62px;height:62px;margin-right:.9rem}
+#goldenHeader strong{color:#eef3f9;font-size:1.45rem;letter-spacing:.09em}
+#goldenHeader span{color:#65aaff;margin-top:.22rem;font-size:.7rem;letter-spacing:.19em}
+#systemBadge{margin-left:auto;padding:.55rem .85rem;border:1px solid rgba(79,156,255,.3);border-radius:999px;color:#8dbbf0;background:rgba(35,77,125,.12);font-size:.65rem;letter-spacing:.1em}
+#statusCard{width:100%;display:flex;justify-content:space-between;margin-bottom:.8rem;padding:.72rem 1rem;border-left:3px solid #4f9cff;border-top:1px solid rgba(174,190,211,.1);border-right:1px solid rgba(174,190,211,.1);border-bottom:1px solid rgba(174,190,211,.1);background:rgba(27,30,40,.72)}
+#statusCard span{color:#7e8797;font-size:.66rem;letter-spacing:.16em}
+#goldenState{color:#66aaff;font-size:.74rem;letter-spacing:.1em}
+#logWrapper,#p2jbStats{border-color:rgba(91,128,167,.28);border-radius:12px;background:rgba(5,8,14,.86);box-shadow:inset 0 0 30px rgba(0,0,0,.35)}
+#progressContainer{border-color:#31557e;background:#0b1421;border-radius:999px}
+#progressBar,.stats-fill{background:#328ee8;background:-webkit-linear-gradient(90deg,#236dc1 0%,#55aef2 100%)}
+#footer{color:#606b7c}
+.retroLoader{margin:0 0 .8rem;padding:.85rem;border:1px solid rgba(79,156,255,.24);border-radius:10px;background:rgba(8,17,29,.66);text-align:center}
+.retroLoader span{display:block;margin-top:.6rem;color:#66aaff;font-size:.64rem;letter-spacing:.18em}
+.retroBlocks{height:28px;display:flex;justify-content:center;gap:8px}
+.retroBlocks i{width:17px;height:28px;background:linear-gradient(#4b91dd,#123a6d);box-shadow:0 0 11px rgba(54,126,255,.32)}
+.loaderActions{display:flex;justify-content:center;gap:.8rem;margin-top:.75rem}
+.loaderActions button{padding:.58rem .9rem;border:1px solid #304b68;border-radius:7px;background:#0c1828;color:#80a6cc;font-size:.66rem;letter-spacing:.09em}
+
+/* P2JB */
+#p2jbStats{background:rgba(7,10,16,.9);border-color:rgba(82,120,161,.3)}
+.stats-title{color:#e3eaf2}.stats-chip{color:#78bfff;background:rgba(56,146,235,.08);border-color:rgba(79,156,255,.3)}
+.stats-clock{color:#7f8b9b}.stats-status{color:#b5bfcb}.stats-detail{color:#8793a2}
+.stats-track,.stats-track.big,#p2jbGroups .gtrack{background:#111925;border-color:#24364d}
+.stats-bar-label{color:#8491a1}.stats-bar-label span:last-child{color:#dbe4ed}
+.stats-meta{color:#738094}
+
+/* Responsive */
+@media(max-width:900px){
+  #dashboard,#loader{width:92vw}
+  .payloadGrid{grid-template-columns:repeat(2,1fr)}
+  .categoryTitle small{display:none}
+}
+@media(max-width:700px){
+  .memoryPanel{padding:1.25rem}
+  .payloadGrid,.advancedGrid{grid-template-columns:1fr}
+  #goldenHeader strong{font-size:1.1rem}
+  #systemBadge{display:none}
+}
+@media(max-width:520px){
+  #dashboard,#loader{width:94vw}
+  .ps2Header img,#goldenHeader img{width:52px;height:52px}
+  .ps2Header h1{font-size:1.35rem}
+  .ps2Header p{font-size:.6rem}
+  .heroLaunch{min-height:68px}
+}
