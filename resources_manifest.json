@@ -1,0 +1,1123 @@
+{
+  "source_elf": "goldengames-ps5-auto-jailbreak-installer_v1.1.0.1.2.elf",
+  "source_size": 31212800,
+  "resource_count": 124,
+  "resources": [
+    {
+      "path": "/app/1.1.0/__complete__",
+      "file_offset": 9567270,
+      "stored_size": 5,
+      "extracted_size": 5,
+      "compressed": false,
+      "mime": "application/octet-stream",
+      "sha256": "7fbd210ebec11f65a97190ef900795c4b8da3805af3f5a1b8d1d272556b292ca"
+    },
+    {
+      "path": "/app/1.1.0/app.js",
+      "file_offset": 9567280,
+      "stored_size": 12657,
+      "extracted_size": 45998,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "e6b2aced1acf0e5bcdf2176c0e8eb85305bf55a230cb8a92943acd471e0b2679"
+    },
+    {
+      "path": "/app/1.1.0/favicon.svg",
+      "file_offset": 9579952,
+      "stored_size": 1151,
+      "extracted_size": 3065,
+      "compressed": true,
+      "mime": "image/svg+xml",
+      "sha256": "c669dcc09eea42697e1f3bb147138116f715146fffbc07229ad2dd73f84caa47"
+    },
+    {
+      "path": "/app/1.1.0/index.html",
+      "file_offset": 9581104,
+      "stored_size": 2489,
+      "extracted_size": 7581,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "052837ec7a62a2e9f88f8963585969287986da0e256011dc80ac847ad8523881"
+    },
+    {
+      "path": "/app/1.1.0/logo.svg",
+      "file_offset": 9583600,
+      "stored_size": 997,
+      "extracted_size": 2687,
+      "compressed": true,
+      "mime": "image/svg+xml",
+      "sha256": "3ccb16ae20157c5d50d0b2150415a4c45d183e41b82b292012c4bf3339277227"
+    },
+    {
+      "path": "/app/1.1.0/payloads/cheatrunner-v0.17.elf",
+      "file_offset": 9584608,
+      "stored_size": 7530893,
+      "extracted_size": 9502120,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "2f296d3f1e69b65439bb5dc362f0f6504f6dc9f245fa16a3683e9d7ec9533773"
+    },
+    {
+      "path": "/app/1.1.0/payloads/etahen-2.5B.bin",
+      "file_offset": 17115504,
+      "stored_size": 4524233,
+      "extracted_size": 4678728,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e"
+    },
+    {
+      "path": "/app/1.1.0/payloads/etahen-2.6B.bin",
+      "file_offset": 21639744,
+      "stored_size": 4586978,
+      "extracted_size": 4740712,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "512c74a9d6f56bb5a4ab871a0306a8cbefb8b3d5454ba8f1d833b020b245a126"
+    },
+    {
+      "path": "/app/1.1.0/payloads/ftpsrv-v0.21.1.elf",
+      "file_offset": 26226736,
+      "stored_size": 49594,
+      "extracted_size": 191864,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938"
+    },
+    {
+      "path": "/app/1.1.0/payloads/kstuff-lite-v1.10.elf",
+      "file_offset": 26276336,
+      "stored_size": 725321,
+      "extracted_size": 1572832,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "b1dfe57f367a35374f605127915eda38c76a6ed5d1c729e427955798bd78c66a"
+    },
+    {
+      "path": "/app/1.1.0/payloads/kstuff-v1.6.7.elf",
+      "file_offset": 27001664,
+      "stored_size": 724744,
+      "extracted_size": 1550152,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
+    },
+    {
+      "path": "/app/1.1.0/payloads/nanodns-0.4.elf",
+      "file_offset": 27726416,
+      "stored_size": 36818,
+      "extracted_size": 132352,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420"
+    },
+    {
+      "path": "/app/1.1.0/payloads/payload.elf",
+      "file_offset": 27763248,
+      "stored_size": 1064524,
+      "extracted_size": 2526728,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "31d12ba2b0b11462a91756f4b8c7857e90674fc8df02fe74155c7c2a8f27a4fd"
+    },
+    {
+      "path": "/app/1.1.0/payloads/ps5-linux-loader-v2.4.elf",
+      "file_offset": 28827776,
+      "stored_size": 44454,
+      "extracted_size": 179472,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "51382795b486f7c5a3681648d457d129088311fc3f9601aeaff78dc72fafcf1d"
+    },
+    {
+      "path": "/app/1.1.0/payloads/shadowmountplus.elf",
+      "file_offset": 28872240,
+      "stored_size": 868583,
+      "extracted_size": 1746608,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "f15653fe90d81e5f82841ca693c0599d307c384d6454c1b0cc18190ae1ef4812"
+    },
+    {
+      "path": "/app/1.1.0/payloads/websrv-v0.34.elf",
+      "file_offset": 29740832,
+      "stored_size": 663644,
+      "extracted_size": 1597864,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
+    },
+    {
+      "path": "/app/1.1.0/placeholder.txt",
+      "file_offset": 30404480,
+      "stored_size": 39,
+      "extracted_size": 39,
+      "compressed": false,
+      "mime": "text/plain",
+      "sha256": "be9c2018fe21d120f26ba18c590ac5d8f31b6f5d94ed0de6b6fcc117744185b8"
+    },
+    {
+      "path": "/app/1.1.0/shared/elfldr-ps5.elf",
+      "file_offset": 30404528,
+      "stored_size": 98915,
+      "extracted_size": 397024,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "6bf3a5416c84305f4e62cc952861f810806eb6613a3d24c4b35f947f2650ba33"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/README.md",
+      "file_offset": 30503456,
+      "stored_size": 139,
+      "extracted_size": 154,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "5128878a4530e7b7e4a388fb701a899e52761d0aecbb2fdd6c6780faac952ebf"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/document/en/ps5/index.html",
+      "file_offset": 30503600,
+      "stored_size": 206,
+      "extracted_size": 307,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "3da49f2e36cbf58e27f4c47a7ba9ffd52d747d0a7e6084881d2e4b5c34db6aac"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/index.html",
+      "file_offset": 30503808,
+      "stored_size": 1170,
+      "extracted_size": 2600,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "f1440098d99c26e354b87f8a3f89eb5b30a1198fca847c0f164ab056922ad189"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/main.css",
+      "file_offset": 30504992,
+      "stored_size": 815,
+      "extracted_size": 2428,
+      "compressed": true,
+      "mime": "text/css",
+      "sha256": "71b4f922ccab2d30d773acdead12ef662396b0f5875a4298eb4671d236f78317"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/10.00.js",
+      "file_offset": 30505808,
+      "stored_size": 3012,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "c94d0154a6486ad64013fe03c6aeaf6ce86e14b4754ddf79f0a1821fab29ead3"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/10.01.js",
+      "file_offset": 30508832,
+      "stored_size": 3012,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "21f1b4c96df9e5b698012eb096369e2f79c65e75b70b2e725ebab4485869d865"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/10.20.js",
+      "file_offset": 30511856,
+      "stored_size": 3011,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "c25371b79948034a26ca04e86fd2784e9c284e2db267384a6ff991113e8c7986"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/10.40.js",
+      "file_offset": 30514880,
+      "stored_size": 3012,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8d0a6108087fd30716526a84d69f37861571d72199bcd9f099ebd1d5d6276f01"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/10.60.js",
+      "file_offset": 30517904,
+      "stored_size": 3012,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "4e50c8c583a27d8e53e66ce077e1c3d27c3e8b96536132059c302c003f0bc582"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/11.00.js",
+      "file_offset": 30520928,
+      "stored_size": 3003,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "918bc405ac2e45add1b5ccc413102dc86b276852245d3625d7a8972990dc271e"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/11.20.js",
+      "file_offset": 30523936,
+      "stored_size": 3001,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "9bad61a2ecb71cb0bac6855d1f47b6636e73c5efb84909588ce3ee99d77fe5c8"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/11.40.js",
+      "file_offset": 30526944,
+      "stored_size": 3001,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8c0c8a83802338bd9ed9718682641b749163980edb20271c798d6173794cda55"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/11.60.js",
+      "file_offset": 30529952,
+      "stored_size": 3001,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "5c3d550f4bb08cb0346894753286182a51e70e3efe4051d65547d09afab9e919"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/12.00.js",
+      "file_offset": 30532960,
+      "stored_size": 3010,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "a93128805b0d31c9d1f2dedd88246210547dc7f7e713d02816151ecc7e9bfd44"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/12.02.js",
+      "file_offset": 30535984,
+      "stored_size": 3466,
+      "extracted_size": 11505,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f103e3b1a25e1eeeca69c266f1f21759c555800386596aeaeb81c6f5658484ea"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/12.20.js",
+      "file_offset": 30539456,
+      "stored_size": 3467,
+      "extracted_size": 11505,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "221ae5a90d592759e9768d98a94f8b1954841b8fad4473704bd418f2d858ce44"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/12.40.js",
+      "file_offset": 30542928,
+      "stored_size": 3468,
+      "extracted_size": 11505,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "312a656e0ad11f1cd926e6c0fc7ab3d13fdbf9fa98d8f2d05e94f87f1ff0ef70"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/12.60.js",
+      "file_offset": 30546400,
+      "stored_size": 3468,
+      "extracted_size": 11505,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8b2c7114464b4e029a579c7315d2d2e105721ecd061f0a63e4124839114b2fd5"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/12.70.js",
+      "file_offset": 30549872,
+      "stored_size": 4394,
+      "extracted_size": 13325,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "5acef5a0d8d1d627203f3acf3bbd75f3a86e03dd0fd4dc4841cc332f92374733"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/7.00.js",
+      "file_offset": 30554272,
+      "stored_size": 4016,
+      "extracted_size": 12317,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "03236f8bd429bb8856dd6861cf23a74dfca40f0e8dc980e6795d22b9e6b5c043"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/7.01.js",
+      "file_offset": 30558288,
+      "stored_size": 4019,
+      "extracted_size": 12317,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f073cf67ae3e449e29795cdeca7bbbb1e82a0f240219dc68a38421f64a0fbdf5"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/7.20.js",
+      "file_offset": 30562320,
+      "stored_size": 4032,
+      "extracted_size": 12337,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f74776df4470036bb0d3e3b434bced5b9268f135d416329e79b3be1644b3d2ba"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/7.40.js",
+      "file_offset": 30566352,
+      "stored_size": 4035,
+      "extracted_size": 12337,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "4d9ba85b62dcfec1a28451707bf9573c5017ddd986986bf872ce9b08e1eb9e74"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/7.60.js",
+      "file_offset": 30570400,
+      "stored_size": 4038,
+      "extracted_size": 12337,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "0341eb60101e90aad3594ec507e34a16382cb289c46e06283f3aab37acda75e6"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/7.61.js",
+      "file_offset": 30574448,
+      "stored_size": 4036,
+      "extracted_size": 12337,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "b8acc4ab2ceb4d569baf0588d0b44e5fdc09e4c5aa72ff33aa8f9da7b78bab9e"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/8.00.js",
+      "file_offset": 30578496,
+      "stored_size": 3717,
+      "extracted_size": 11662,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "130d9fe0bad31bc2cc9cf5bb1f87358aadecd3d9aac5b840e6f37d97b0af2b5e"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/8.20.js",
+      "file_offset": 30582224,
+      "stored_size": 3714,
+      "extracted_size": 11662,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "4a1ead42cecabd7f8a8f630541a460e3640bc461b2ce8e2128f495ceff8cbe72"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/8.40.js",
+      "file_offset": 30585952,
+      "stored_size": 3714,
+      "extracted_size": 11662,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "156f02625273d1ec8aee6f9c6c740e865045eb3a403e735142126c60c503e979"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/8.60.js",
+      "file_offset": 30589680,
+      "stored_size": 3711,
+      "extracted_size": 11662,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "68488ebffaa6b114fd1493acd07dbf6bcbcbb50b4923c5436ec0a2d3f5e08aa5"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/9.00.js",
+      "file_offset": 30593392,
+      "stored_size": 3085,
+      "extracted_size": 10552,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "88af5cfeb5e89828916004a008d4ede1a2f27d80d1d44e1bf423611f9bc5e6f4"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/9.05.js",
+      "file_offset": 30596480,
+      "stored_size": 3101,
+      "extracted_size": 10602,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f96d30be97cea71d441dc641c327b9ee9bb019093e85dccec20730130b38abf4"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/9.20.js",
+      "file_offset": 30599584,
+      "stored_size": 3015,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "fdd7aef45b6a7726a84251918e29499ef9d981a961af3b4f3585cf381ece3f66"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/9.40.js",
+      "file_offset": 30602608,
+      "stored_size": 3012,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "6ce2a9f76c414ecf00757793efd1ee7e97ec5cd9aaf571818ec4055b5d251000"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/offsets/9.60.js",
+      "file_offset": 30605632,
+      "stored_size": 3012,
+      "extracted_size": 10455,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "15997e22d5ac6387e1fc8abf28d1cc5982283bccb2084acc7995129387a5a037"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/payloads/kexp-v0.7-b12c352.bin",
+      "file_offset": 30608656,
+      "stored_size": 9263,
+      "extracted_size": 18904,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "46a5cd6bdf92b37aa09f512e05c2229de1f0f2e7e7a7e60140a288f4cc15b7b6"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/core.js",
+      "file_offset": 30617920,
+      "stored_size": 10720,
+      "extracted_size": 45287,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "b9e2085a19c755b63873a6c469ac437931c3dce6de98b1bcef5ee19a6d1540c8"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/int64.js",
+      "file_offset": 30628640,
+      "stored_size": 647,
+      "extracted_size": 2787,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "a79a3334a3f2c75b9a238ab1093796e326251c97ac5d02663eae5b14bf80f652"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/main.js",
+      "file_offset": 30629296,
+      "stored_size": 4245,
+      "extracted_size": 13876,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f2f765f3f37308f47a4f413d17f8ddd83af0afa84af19aa560c5e28246f63ff8"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/mem.js",
+      "file_offset": 30633552,
+      "stored_size": 6253,
+      "extracted_size": 28205,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f5d6c9d689d7fea2ad3644ba29b36634c0ee619ebb82dbedecb62302b05ee6cb"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/p2jb.html",
+      "file_offset": 30639808,
+      "stored_size": 25942,
+      "extracted_size": 86823,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "1b496bff59804798bc6ca4017645d361294c104cee844195069ffc0e0d85a8c2"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/p2jb.js",
+      "file_offset": 30665760,
+      "stored_size": 65501,
+      "extracted_size": 247628,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "84a9a2369a417b509fee54e5fa69c20104e32c5aa2055dce76a058fd1af352f9"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/p2jb_lk.js",
+      "file_offset": 30731264,
+      "stored_size": 1671,
+      "extracted_size": 3838,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "ac4d7e55fd91630ef637986d4da8a404706579e9ada4fb915f0875c6f2cc262f"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/p2jb_poops.js",
+      "file_offset": 30732944,
+      "stored_size": 12152,
+      "extracted_size": 32891,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "e242717b916689f2a5cde8af5bf82371d902fe767fc712ba0d618413d74d873d"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/poops.html",
+      "file_offset": 30745104,
+      "stored_size": 29674,
+      "extracted_size": 108171,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "3e27bdbdf475c3111d50fa4d4bd15e436dc2f7dcda952890db22414579bc6a65"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/poops.js",
+      "file_offset": 30774784,
+      "stored_size": 69931,
+      "extracted_size": 283960,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "459918f5751b8ca307ced8c025f6ea382bc49178174da616e9a3349a262e60c2"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/rop-worker.js",
+      "file_offset": 30844720,
+      "stored_size": 13102,
+      "extracted_size": 36146,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "2f7571e1e46dc4e2227778a171ae8d1d0300407cc1bf2f3389e2f4642506ba2c"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/rop.js",
+      "file_offset": 30857824,
+      "stored_size": 2605,
+      "extracted_size": 19165,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "489e71f9b9c2100e4061371abb89ff46ad251006418cb57bb34d92416368ec04"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/rop_slave.js",
+      "file_offset": 30860432,
+      "stored_size": 80,
+      "extracted_size": 88,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "a207ab667350701f71378587814de16526fd449bae12d40a513ae067c1f50a04"
+    },
+    {
+      "path": "/app/1.1.0/slopkit/slopkit/syscalls.js",
+      "file_offset": 30860512,
+      "stored_size": 3901,
+      "extracted_size": 16469,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "99767fd55c46d529a6f347778185092a38461b91e60414c2f22379b520479c0e"
+    },
+    {
+      "path": "/app/1.1.0/style.css",
+      "file_offset": 30864416,
+      "stored_size": 8148,
+      "extracted_size": 30778,
+      "compressed": true,
+      "mime": "text/css",
+      "sha256": "6b5d1922db6ee315d14478b0e0f1684237d09a1e8556441ef1c3fbe68293d4ad"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/custom_host_stuff.js",
+      "file_offset": 30872576,
+      "stored_size": 2708,
+      "extracted_size": 9812,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "0eb983c03da067670837764e0e23a90fb550c169f311babd2efd02463c71a151"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/index.html",
+      "file_offset": 30875296,
+      "stored_size": 1442,
+      "extracted_size": 3821,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "b9d7e0c760427bad7e6433a1194da7abe5aac9b0cecf6760218099279a72c89e"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/int64.js",
+      "file_offset": 30876752,
+      "stored_size": 900,
+      "extracted_size": 3504,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "97caf8dc13de5904ec60364c1b3c4a51036c03127df8382b819e7aebb4578f8c"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/main.css",
+      "file_offset": 30877664,
+      "stored_size": 1607,
+      "extracted_size": 6508,
+      "compressed": true,
+      "mime": "text/css",
+      "sha256": "3edf223b147849f90bb45c8dbe61a4eaa76b0ceb5e3f18a6f390850089b7e662"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/main.js",
+      "file_offset": 30879280,
+      "stored_size": 12675,
+      "extracted_size": 52776,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "19a7cb5bcb4970a2eaadad584ef6f5165f1d0956f6bb0f384b19395b8e942620"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.00.js",
+      "file_offset": 30891968,
+      "stored_size": 4390,
+      "extracted_size": 15478,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8d7c6e4d87faee937f3e2e286e925cfe047e906f2ac640a7c6794a0f2809518d"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.01.js",
+      "file_offset": 30896368,
+      "stored_size": 4390,
+      "extracted_size": 15478,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "70c1e9df31b514b12f66fcc1d4ffb21dd2c656e0a7c57419e0dbdcb35074848f"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.02.js",
+      "file_offset": 30900768,
+      "stored_size": 4409,
+      "extracted_size": 15527,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "9370f87f73db023245ca43039eb2850e278755f1332b94acecde41bc5a23614b"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.05.js",
+      "file_offset": 30905184,
+      "stored_size": 4375,
+      "extracted_size": 15207,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "49a1f2b2f6bd5146c74e54381d00630f74d8a2661eb31c6169a8473b2b9af767"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.10.js",
+      "file_offset": 30909568,
+      "stored_size": 4375,
+      "extracted_size": 15207,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "97b81c767c9bc8a99e32afbf782edd27b60bae3f9b821bc66bbcdf70e4298fd6"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.11.js",
+      "file_offset": 30913952,
+      "stored_size": 4377,
+      "extracted_size": 15206,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "306767de15b2d8a1404001b853a94a2294ddd8d64e858be08cb80a93754e99f7"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.12.js",
+      "file_offset": 30918336,
+      "stored_size": 4375,
+      "extracted_size": 15206,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "48e373ef99753c7139891cb222119db2cc7aa1b17789790b06428c24f9733bab"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.13.js",
+      "file_offset": 30922720,
+      "stored_size": 4374,
+      "extracted_size": 15206,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "7476c8f90f8e3c67e14141f4c9e35b18ca5e4988137e155370b661d560e6dafe"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/1.14.js",
+      "file_offset": 30927104,
+      "stored_size": 4374,
+      "extracted_size": 15206,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "de21028fbb86e0095256de0bf20785c7854f9ee17aacdc0879368c6ec83a0911"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.00.js",
+      "file_offset": 30931488,
+      "stored_size": 4466,
+      "extracted_size": 15619,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "64e698ed19186fadcfc81023ef7e95108423dc848369cfac489dfe5a82aad777"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.20.js",
+      "file_offset": 30935968,
+      "stored_size": 4396,
+      "extracted_size": 15167,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "99739457c94a5a2a83bcfe88f8ebe33588948716fd79f957532aeedf6dd8c108"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.25.js",
+      "file_offset": 30940368,
+      "stored_size": 4396,
+      "extracted_size": 15167,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "c59f28bcfd3a00ed5962a81ae1ecd91fd8fb0e456fb77a882cb1683814a863d7"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.26.js",
+      "file_offset": 30944768,
+      "stored_size": 4396,
+      "extracted_size": 15167,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "c59f28bcfd3a00ed5962a81ae1ecd91fd8fb0e456fb77a882cb1683814a863d7"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.30.js",
+      "file_offset": 30949168,
+      "stored_size": 4392,
+      "extracted_size": 15160,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "1ef4ad29d83adbb05698bd5f9de2e76224462150ac5a3a75f29d9031a38a328f"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.50.js",
+      "file_offset": 30953568,
+      "stored_size": 4393,
+      "extracted_size": 15160,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "5457724ab087532954271768b20ce9888d5d8e5725caa9c1a082eaa82f232724"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/2.70.js",
+      "file_offset": 30957968,
+      "stored_size": 4468,
+      "extracted_size": 15620,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f27ac11c07589d353d37a706324024d6e6d1efb398dce86fa03fe4fe615f521d"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/3.00.js",
+      "file_offset": 30962448,
+      "stored_size": 4397,
+      "extracted_size": 15177,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "37dc25e4fbe610fc00e44f020f5a3996375916f9cd3ea476f5d2bf3fd5631608"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/3.10.js",
+      "file_offset": 30966848,
+      "stored_size": 4408,
+      "extracted_size": 15201,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "c22821295da5199fe0b42ce1ffa20b493d7149cb85a35f677507930bdb0fc77f"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/3.20.js",
+      "file_offset": 30971264,
+      "stored_size": 4398,
+      "extracted_size": 15177,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8d87f4dcf507125e70adc385ca848d48e15fa6c29137d07ede7492ce43e5cd75"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/3.21.js",
+      "file_offset": 30975664,
+      "stored_size": 4406,
+      "extracted_size": 15185,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8b22ef4dd258ce0c5d8a354e3b430d8812918a50bbd171fa5555a64146ce2bd1"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/4.00.js",
+      "file_offset": 30980080,
+      "stored_size": 4414,
+      "extracted_size": 15186,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "23cadd749db4d1600498332c40ce519c9da47a79cd0fd59d021404e805515a73"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/4.02.js",
+      "file_offset": 30984496,
+      "stored_size": 4407,
+      "extracted_size": 15177,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "ee22d736c2ccce0ada16c6991b07c30c224f696000e1d020f79d8fe9aa1dd41b"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/4.03.js",
+      "file_offset": 30988912,
+      "stored_size": 4434,
+      "extracted_size": 15253,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "eadc60590e6b7bffeddd4174560210fadf148670e3e2529e16a7aa415219ea88"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/4.50.js",
+      "file_offset": 30993360,
+      "stored_size": 4407,
+      "extracted_size": 15177,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "219960ef3cadad978a739ed17bfaf9a62db56938128e9ace3b9cb6ba279c554e"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/4.51.js",
+      "file_offset": 30997776,
+      "stored_size": 4406,
+      "extracted_size": 15177,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "d6c420519d1a446c7b4ac78850e70140162659f20607f3bb6ef34f64bfee5fd4"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/5.00.js",
+      "file_offset": 31002192,
+      "stored_size": 4442,
+      "extracted_size": 15334,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "201c6e044113445c2a67bcfec702391961b42dcb0d0c633a230109ad882fb972"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/5.02.js",
+      "file_offset": 31006640,
+      "stored_size": 4442,
+      "extracted_size": 15334,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "201c6e044113445c2a67bcfec702391961b42dcb0d0c633a230109ad882fb972"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/5.10.js",
+      "file_offset": 31011088,
+      "stored_size": 4442,
+      "extracted_size": 15334,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "3b92eb6aab29a19b5c0e141e4307a27367c7e8cfb07d7399855c34d4e0aeb851"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/offsets/5.50.js",
+      "file_offset": 31015536,
+      "stored_size": 4465,
+      "extracted_size": 15297,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "ca785d1222a49f800b4437e0d4e0a69805f4d1d47dcc973dc30b11acdd2c5dcb"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/payload_map.js",
+      "file_offset": 31020016,
+      "stored_size": 1972,
+      "extracted_size": 8165,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "60f79efe9bfa842e66e60cd0ffeda8ad3f160c577159b57f411d8af05059f7f1"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/payloads/elfldr-ps5.elf",
+      "file_offset": 31022000,
+      "stored_size": 92016,
+      "extracted_size": 380616,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "cc67181843afc56b33421468d4c3610942f150c6bebf0107c663c36918b63af0"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/COPYING",
+      "file_offset": 31114016,
+      "stored_size": 11752,
+      "extracted_size": 34523,
+      "compressed": true,
+      "mime": "application/octet-stream",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/alert.js",
+      "file_offset": 31125776,
+      "stored_size": 850,
+      "extracted_size": 1734,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "5aa0ddf4562eb48bba66f22bc785696d71832eb5169405e242da3f4121be488d"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/config.js",
+      "file_offset": 31126640,
+      "stored_size": 1063,
+      "extracted_size": 2118,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "aaa19edb30a37e3b25da5b837528665b2e3f72262b8c243098dcf7243e388645"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/chain.js",
+      "file_offset": 31127712,
+      "stored_size": 2253,
+      "extracted_size": 6076,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "58d0d9a1eb510dadae0e38c5ed70f05edf237941c71d52b2e61c85a1e8c62257"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/int64.js",
+      "file_offset": 31129968,
+      "stored_size": 1180,
+      "extracted_size": 3522,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "ae4599780225fca5c9d2d744bc0367f2bb60c2bf2e3346a6a6b093324552817c"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/mem.js",
+      "file_offset": 31131152,
+      "stored_size": 1982,
+      "extracted_size": 9575,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "435c11209e1302db614fb373d2f6226e5694aa8e68638932197da3083e4c89ec"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/memtools.js",
+      "file_offset": 31133136,
+      "stored_size": 4617,
+      "extracted_size": 12532,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "0add0e309ea637a4e7b2484902b7e422a00dd1c68e3b6547d23ba791bb98e9df"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/offset.js",
+      "file_offset": 31137760,
+      "stored_size": 786,
+      "extracted_size": 1747,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "f23b7dc7919319d2afbe05b2d35ff931fe23eb489a47400b98a47cd702c424c1"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/rw.js",
+      "file_offset": 31138560,
+      "stored_size": 1424,
+      "extracted_size": 4084,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "ed2aeceb1406f448f1093bd08919418143bd62ca159b5cca252e95865eea2e56"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/module/utils.js",
+      "file_offset": 31139984,
+      "stored_size": 1314,
+      "extracted_size": 2668,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "4726be0f82404288f3783e43be4d4998779d9a2032ae81d5ffd48996ac2ede5f"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/psfree/psfree.js",
+      "file_offset": 31141312,
+      "stored_size": 8921,
+      "extracted_size": 29422,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "3975f4ee692ad7b791086ffc408d3cc556625c344421e1252ee406fcc985fb67"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/rop.js",
+      "file_offset": 31150240,
+      "stored_size": 4167,
+      "extracted_size": 28758,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "b87e68327f795a8dea6535c996cbb80c46784d8d233c2d440e3a2a261331b751"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/rop_slave.js",
+      "file_offset": 31154416,
+      "stored_size": 80,
+      "extracted_size": 89,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "a0bd7b7433762b7ce56a62c7109fa3bbb9077e2b90954f9ab25d9bf04b5dbc47"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/syscalls.js",
+      "file_offset": 31154496,
+      "stored_size": 3902,
+      "extracted_size": 16468,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "8bec7bf835654f394f65353d4b9e2006f319522fd38b7b6216c312063f0ac986"
+    },
+    {
+      "path": "/app/1.1.0/umtx2/umtx2.js",
+      "file_offset": 31158400,
+      "stored_size": 9845,
+      "extracted_size": 54649,
+      "compressed": true,
+      "mime": "application/javascript",
+      "sha256": "891244d37d3f3e25923d028d5a1b0bef7f1f80d282df598c9fe749c4b5e06d5c"
+    },
+    {
+      "path": "/app/index.html",
+      "file_offset": 31168256,
+      "stored_size": 963,
+      "extracted_size": 2162,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "68c6cfba268eb7c41299044b26a14a3198cd8f4167a011682ef15b4134e222d9"
+    },
+    {
+      "path": "/cache.appcache",
+      "file_offset": 31169232,
+      "stored_size": 1337,
+      "extracted_size": 11424,
+      "compressed": true,
+      "mime": "text/cache-manifest",
+      "sha256": "128196ee74fcfb2a9196ca9df9319b1d6e0cc0e6a7b3c881e39a69ca84ad1e50"
+    },
+    {
+      "path": "/favicon.svg",
+      "file_offset": 31170576,
+      "stored_size": 1151,
+      "extracted_size": 3065,
+      "compressed": true,
+      "mime": "image/svg+xml",
+      "sha256": "c669dcc09eea42697e1f3bb147138116f715146fffbc07229ad2dd73f84caa47"
+    },
+    {
+      "path": "/index.html",
+      "file_offset": 31171728,
+      "stored_size": 5327,
+      "extracted_size": 20713,
+      "compressed": true,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "58ef2c655346e9390fd4bcc31a6274471600e39d5dc688ee2659da94980f13f7"
+    },
+    {
+      "path": "/logo.svg",
+      "file_offset": 31177056,
+      "stored_size": 997,
+      "extracted_size": 2687,
+      "compressed": true,
+      "mime": "image/svg+xml",
+      "sha256": "3ccb16ae20157c5d50d0b2150415a4c45d183e41b82b292012c4bf3339277227"
+    }
+  ]
+}
