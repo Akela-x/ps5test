@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <title>Goldengames PS5 Auto Jailbreak Installer v1.1.0</title>
+  <title>PS5 Auto Jailbreak Installer v1.1.0</title>
 
   <style>
     /* =========================================================
@@ -665,7 +665,7 @@
   <main>
     <img class="logo" src="/logo.svg" alt="Goldengames" />
 
-    <h1>GOLDENGAMES</h1>
+    <h1>ВЗЛОМ PlayStation 5</h1>
 
     <div class="installMemory" aria-hidden="true">
       <i></i>
@@ -675,9 +675,9 @@
       <i></i>
     </div>
 
-    <p class="installLegend">LOADING MEMORY CARD DATA</p>
+    <p class="installLegend">ЗАГРУЗКА ДАННЫХ</p>
 
-    <p id="status">Loading&hellip;</p>
+    <p id="status">Загрузка&hellip;</p>
 
     <p id="detail"></p>
 
@@ -691,9 +691,9 @@
   </main>
 
   <footer id="footer">
-    Goldengames PS5 Auto Jailbreak v1.1.0 · Based on WebKit Autoloader v0.4.0 by PLK
+    Специально для 4PDA Sony PlayStation 5 - Взлом
     <br />
-    GPL-3.0 · github.com/itsPLK/ps5-webkit-autoloader
+    Особая благодарность всем разработчикам сцены
   </footer>
 
 
@@ -804,7 +804,7 @@
       }
 
       function setInstalled() {
-        statusEl.textContent = 'Installed successfully';
+        statusEl.textContent = 'Установка успешно завершена.';
 
         statusEl.style.color = '#22c55e';
 
@@ -812,13 +812,13 @@
           '-webkit-linear-gradient(90deg, #16a34a 0%, #22c55e 100%)';
 
         detailEl.textContent =
-          'Goldengames PS5 Auto Jailbreak is now on your PS5 homescreen. You can close this page.';
+          'PS5 Auto Jailbreak теперь находится на главном экране вашей PS5. Вы можете закрыть эту страницу.';
 
         setProgress(100);
       }
 
       function setFailed() {
-        statusEl.textContent = 'Install failed';
+        statusEl.textContent = 'Не удалось установить';
 
         statusEl.style.color = '#ef4444';
 
@@ -826,23 +826,23 @@
           '-webkit-linear-gradient(90deg, #dc2626 0%, #ef4444 100%)';
 
         detailEl.textContent =
-          'The app could not be installed. Close this page and re-run the installer.';
+          'Не удалось установить приложение. Закройте эту страницу и повторно запустите установщик.';
       }
 
       function setSlow() {
         statusEl.textContent =
-          'Caching is taking unusually long';
+          'Кэширование занимает необычно много времени';
 
         detailEl.textContent =
-          'The shortcut is only created after the cache finishes. If this never completes, close the browser and re-run the installer.';
+          'Ярлык будет создан только после завершения кэширования. Если процесс так и не завершится, закройте браузер и повторно запустите установщик.';
       }
 
       function setCaching() {
         statusEl.textContent =
-          'Caching content...';
+          'Кэширование содержимого...';
 
         detailEl.textContent =
-          'Please wait a moment. Do not close this page yet!';
+          'Пожалуйста, подождите немного. Пока не закрывайте эту страницу!';
 
         progressWrap.hidden = false;
       }
@@ -953,7 +953,7 @@
         progressWrap.hidden = true;
         logContainer.hidden = true;
 
-        statusEl.textContent = 'Caching failed';
+        statusEl.textContent = 'Не удалось выполнить кэширование';
         detailEl.textContent = '';
 
         var overlay =
